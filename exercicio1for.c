@@ -34,8 +34,9 @@ void main(){
 
         } else { 
             printf("Erro, o intervalo minimo entre os valores deve ser 10!\n");
-            }
             exit(0);
+            }
+            
     }
     
     else if (n1 < n2){
@@ -58,8 +59,9 @@ void main(){
 
         } else { 
             printf("Erro, o intervalo minimo entre os valores deve ser 10!\n");
-            }
             exit(0);
+            }
+            
             
     }
     
