@@ -67,11 +67,17 @@ void main(){
     
     float mediaP = somaPos/qtdPos;
     float mediaN = somaNeg/qtdNeg;
-    printf("\n\nMedia dos positivos: %.2f\n", mediaP);
+
+    if (qtdPos != 0){
+        printf("\n\nMedia dos positivos: %.2f\n", mediaP);
+    }else{
+        printf("\n\nMedia dos positivos: 0.0 \n");
+    } 
+
     if (qtdNeg != 0){
         printf("Media dos negativos: %.2f\n", mediaN);
     }else{
-        printf("Media dos negativos: 0.0 ");
+        printf("Media dos negativos: 0.0 \n");
     }
 
 }
